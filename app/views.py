@@ -69,7 +69,7 @@ def lista_vestibulares(request):
         context_instance = RequestContext(request,
         {
             'title':'Cadastro de cursos',
-            'cursos': ['ADS' , 'Sistemas de Informação', 'Administração'],
+            'cursos': ['ADS' , 'Sistemas de Informacao', 'Administracao'],
             'year':datetime.now().year,
         })
     )
