@@ -68,7 +68,7 @@ def lista_vestibulares(request):
         'app/lista_vestibulares.html',
         context_instance = RequestContext(request,
         {
-            'title':'Cadastro de cursos',
+            'title':'Vestibulares',
             'cursos': ['ADS' , 'Sistemas de Informacao', 'Administracao'],
             'year':datetime.now().year,
         })
